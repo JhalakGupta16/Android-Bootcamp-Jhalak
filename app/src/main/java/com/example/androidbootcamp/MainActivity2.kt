@@ -17,7 +17,7 @@ class MainActivity2() : FragmentActivity(), Parcelable {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-            getSupportFragmentManager().beginTransaction()
+
                 .replace(R.id.main_browse_fragment, MainFragment())
                 .commitNow()
 
